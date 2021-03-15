@@ -1,1 +1,17 @@
-
+<!doctype html>   <!--  homework2-1.html -->
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <title>숙제2-1</title>
+  </head>
+  <body>
+    <h1>(숙제)다음 html 문서에서 사용된 모든 에릴먼트를 쓰시오</h1>
+    <p>1) html 엘리먼트</p>
+    <p>2) head 엘리먼트</p>
+    <p>3) meta 엘리먼트</p>
+    <p>4) title 엘리먼트</p>
+    <p>5) body 엘리먼트</p>
+    <p>6) p 엘리먼트</p>
+    <p>7) a 엘리먼트</p>
+  </body>
+</html>
