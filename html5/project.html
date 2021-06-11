@@ -1,0 +1,95 @@
+<!doctype html> <!--  project.html -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+      *{box-sizing:border-box; padding:0; margin:0;}
+      .row::after{content:""; clear:both; display:table;}
+      [class*="col-"]{float:left; padding:10px;}
+      [class*="col-"]{width:100%}   
+      @media only screen and (min-width: 600px){
+      .col-t-1{width:8.33%;}
+      .col-t-2{width:16.66%;}
+      .col-t-3{width:23.7%;}
+      .col-t-4{width:33.33%;}
+      .col-t-5{width:41.66%;}
+      .col-t-6{width:50%;}
+      .col-t-7{width:58.33%;}
+      .col-t-8{width:66.66%;}
+      .col-t-9{width:75%;}
+      .col-t-10{width:83.33%;}
+      .col-t-11{width:91.66%;}
+      .col-t-12{width:100%;}
+      }
+      @media only screen and (min-width: 768px){
+      .col-1{width:8.33%;}
+      .col-2{width:16.66%;}
+      .col-3{width:23.7%;}
+      .col-4{width:33.33%;}
+      .col-5{width:41.66%;}
+      .col-6{width:50%;}
+      .col-7{width:58.33%;}
+      .col-8{width:66.66%;}
+      .col-9{width:75%;}
+      .col-10{width:83.33%;}
+      .col-11{width:91.66%;}
+      .col-12{width:100%;}
+      }
+      header, nav, section, article, aside, footer{border:10px groove gray; margin:5px; padding:8px; width:100%;}
+      *{padding:0; margin:0;}
+      .bodybackground{background-color:RGB(192, 192, 192);}
+      .imgleft{float:left; width:30px;}
+      .imgright{float:right; width:30px;}
+      h2{float:center; margin:0 0 0 0;  text-align:center;}
+      header ul{margin:0; padding:0;}
+      header ul li{display:inline; margin:5px}
+      section{width:750px; float:left;}
+      section section{width:725px; float:left}
+      aside{width:203px; float:left; line-height:30px;}
+      footer{height:50px; clear:both;}
+      nav ul{margin:0; padding:0;}
+      nav ul li{display:inline; margin:5px}
+      aside ul{margin:0; padding:0;}
+      aside ul li{display:block; margin:5px;}
+      aside ul li img{width:50px; height:50px;}
+      a:link{
+        color:blue; background-color:transparent; text-decoration:none;}
+      a:visited{
+        color:yellow; background-color:transparent; text-decoration:none;}
+      a:hover{
+        color:red; background-color:transparent; text-decoration:underline;}
+      a:active{
+        color:blue; background-color:transparent; text-decoration:none;}
+    </style>
+    <title>ePortfolio 과제</title>
+  </head>
+  <body class="bodybackground">
+    <header>
+      <h2>자격증 및 면허</h2>
+    </header>
+     <nav>
+      <ul>
+        <li><a href="https://www.dju.ac.kr/dju/main.do" target="_blank">대전대학교</a></li>
+        <li><a href="lecture.html">수강(예정) 과목</a></li>
+        <li><a href="license.html">자격증 및 면허</a></li>
+        <li><a href="project.html">프로젝트</a></li>
+      </ul>
+    </nav>
+    <section class="col-9 col-t-12">
+      <section class="col-12 col-t-12">
+        <h3>프로젝트</h3>
+        <p style="color:green">학기말 프로젝트 수행 내역을 확인하실 수 있습니다.</p>
+      </section>
+      <section class="col-12 col-t-12">
+        <h3>개인별Index.html</h3>
+        <p style="color:green">학기 : 2학년 1학기</p>
+        <p style="color:green">과목 : 인터넷응용</p>
+        <p style="color:green">주소 : <a href="https://youngjaekim22.github.io/%EA%B0%9C%EC%9D%B8%EB%B3%84index.html" target="_blank">개인별Index.html</a></p>
+      </section>
+      </section>
+    <footer>
+      <p> 2020 Made by 20181411 컴퓨터공학과 정교영. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
