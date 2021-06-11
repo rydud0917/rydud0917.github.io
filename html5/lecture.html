@@ -1,0 +1,122 @@
+<!doctype html>   <!--  lecture.html -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+      *{box-sizing:border-box; padding:0; margin:0;}
+      .row::after{content:""; clear:both; display:table;}
+      [class*="col-"]{float:left; padding:10px;}
+      [class*="col-"]{width:100%}   
+      @media only screen and (min-width: 600px){
+      .col-t-1{width:8.33%;}
+      .col-t-2{width:16.66%;}
+      .col-t-3{width:23.7%;}
+      .col-t-4{width:33.33%;}
+      .col-t-5{width:41.66%;}
+      .col-t-6{width:50%;}
+      .col-t-7{width:58.33%;}
+      .col-t-8{width:66.66%;}
+      .col-t-9{width:75%;}
+      .col-t-10{width:83.33%;}
+      .col-t-11{width:91.66%;}
+      .col-t-12{width:100%;}
+      }
+      @media only screen and (min-width: 768px){
+      .col-1{width:8.33%;}
+      .col-2{width:16.66%;}
+      .col-3{width:23.7%;}
+      .col-4{width:33.33%;}
+      .col-5{width:41.66%;}
+      .col-6{width:50%;}
+      .col-7{width:58.33%;}
+      .col-8{width:66.66%;}
+      .col-9{width:75%;}
+      .col-10{width:83.33%;}
+      .col-11{width:91.66%;}
+      .col-12{width:100%;}
+      }
+      header, nav, section, article, aside, footer{border:10px groove gray; margin:5px; padding:8px; width:100%;}
+      *{padding:0; margin:0;}
+      .bodybackground{background-color:RGB(192, 192, 192);}
+      .imgleft{float:left; width:30px;}
+      .imgright{float:right; width:30px;}
+      h2{float:center; margin:0 0 0 0;  text-align:center;}
+      header ul{margin:0; padding:0;}
+      header ul li{display:inline; margin:5px}
+      section{width:750px; float:left;}
+      section section{width:725px; float:left}
+      aside{width:203px; float:left; line-height:30px;}
+      footer{height:50px; clear:both;}
+      nav ul{margin:0; padding:0;}
+      nav ul li{display:inline; margin:5px}
+      aside ul{margin:0; padding:0;}
+      aside ul li{display:block; margin:5px;}
+      aside ul li img{width:50px; height:50px;}
+      a:link{
+        color:blue; background-color:transparent; text-decoration:none;}
+      a:visited{
+        color:yellow; background-color:transparent; text-decoration:none;}
+      a:hover{
+        color:red; background-color:transparent; text-decoration:underline;}
+      a:active{
+        color:blue; background-color:transparent; text-decoration:none;}
+    </style>
+    <title>ePortfolio 과제</title>
+  </head>
+  <body class="bodybackground">
+    <header><h2>수강(예정) 과목</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="https://www.dju.ac.kr/dju/main.do" target="_blank">대전대학교</a></li>
+        <li><a href="lecture.html">수강(예정) 과목</a></li>
+        <li><a href="license.html">자격증 및 면허</a></li>
+        <li><a href="project.html">프로젝트</a></li>
+      </ul>
+    </nav>
+    <section class="col-9 col-t-12">
+      <section class="col-12 col-t-12">
+        <h3>수강(예정) 과목</h3>
+        <p style="color:green">수강 과목과 수강 예정 과목과 함께 전공 교과 과정표를 확인하실 수 있습니다.</p>
+      </section>
+      <section class="col-12 col-t-12">
+        <h3>수강한 과목</h3>
+        <p style="color:green">1학년 1학기 : 교양 필수 - 발표와 토론</p>
+        <p style="color:green">1학년 1학기 : 교양 필수 - 수학 2</p>
+        <p style="color:green">1학년 1학기 : 전공 필수 - C프로그래밍</p>
+        <p style="color:green">1학년 1학기 : 교양 필수 - 글쓰기 심화</p>
+        <p style="color:green">1학년 2학기 : 전공 선택 - 이산 수학</p>
+        <p style="color:green">1학년 2학기 : 교양 필수 - 화학 2</p>
+        <p style="color:green">1학년 2학기 : 교양 필수 - 소프트웨어디자인</p>
+      </section>
+      <section class="col-12 col-t-12">
+        <h3>수강중인 과목</h3>
+        <p style="color:green">2학년 1학기 : 전공 선택 - 인터넷 응용</p>
+        <p style="color:green">2학년 1학기 : 전공 필수 - C++ 프로그래밍</p>
+        <p style="color:green">2학년 1학기 : 전공 필수 - 디지털 논리회로</p>
+        <p style="color:green">2학년 1학기 : 전공 필수 - 자료구조 및 실습</p>
+        <p style="color:green">2학년 1학기 : 전공 선택 - 오토마타와 응용</p>
+      </section>
+      <section class="col-12 col-t-12">
+        <h3>수강 예정 과목</h3>
+        <p style="color:green">2학년 2학기 : 전공 필수 - JAVA 프로그래밍</p>
+        <p style="color:green">2학년 2학기 : 전공 필수 - 수치계산 및 응용</p>
+        <p style="color:green">2학년 2학기 : 전공 필수 - 윈도우 프로그래밍</p>
+        <p style="color:green">2학년 2학기 : 전공 필수 - 알고리즘 및 실습</p>
+        <p style="color:green">3학년 1학기 : 전공 선택 - 운영체제</p>
+        <p style="color:green">3학년 1학기 : 전공 선택 - 모바일 프로그래밍</p>
+        <p style="color:green">3학년 1학기 : 전공 선택 - 데이터베이스 시스템</p>
+        <p style="color:green">3학년 2학기 : 전공 선택 - 컴퓨터 통신 보안</p>
+        <p style="color:green">3학년 2학기 : 전공 선택 - 네트워크와 데이터통신</p>
+        <p style="color:green">4학년 1학기 : 전공 필수 - 캡스톤 디자인 1</p>
+        <p style="color:green">4학년 1학기 : 전공 선택 - 네트워크 보안</p>
+        <p style="color:green">4학년 2학기 : 전공 필수 - 캡스톤 디자인 2</p>
+        <p style="color:green">4학년 2학기 : 전공 필수 - 딥 러닝</p>
+      </section>
+    </section>
+    <footer>
+      <p> 2021 Made by 20181411 컴퓨터공학과 정교영. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
